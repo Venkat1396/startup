@@ -26,7 +26,7 @@
 	<img src="easy-ways-to-recycle-electronic-gadgets-and-control-pollution.jpg">
 	<center><h1><small>Get Gadgets At Your DoorStep!</small></h1></center>
 </div>
-<div class="container col-sm-5 ">
+<div class="container col-sm-5">
 	<form class="form-horizontal" method="post">
 		<div class="container-fluid">
 			<div class=row>

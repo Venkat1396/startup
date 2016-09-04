@@ -22,10 +22,10 @@
 	<nav class="navbar navbar-inverse"><br>
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="navbar.jsp">Electronic Hub</a>
+				<a class="navbar-brand" href="Home.jsp">Electronic Hub</a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="navbar.jsp"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+				<li class="active"><a href="Home.jsp"><span class="glyphicon glyphicon-home"></span>Home</a></li>
 				<li><a href="#"><span class="glyphicon glyphicon-phone-alt"></span>Contact Us</a></li>
 				<li><a href="#"><span class="glyphicon glyphicon-inbox"></span>About Us</a></li>
 				<li class="dropdown">
