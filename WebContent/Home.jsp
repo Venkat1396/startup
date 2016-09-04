@@ -54,21 +54,37 @@
       			<li data-target="#myCarousel" data-slide-to="1"></li>
       			<li data-target="#myCarousel" data-slide-to="2"></li>
       			<li data-target="#myCarousel" data-slide-to="3"></li>
+      			<li data-target="#myCarousel" data-slide-to="4"></li>
+      			<li data-target="#myCarousel" data-slide-to="5"></li>
+      			<li data-target="#myCarousel" data-slide-to="6"></li>
+      			<li data-target="#myCarousel" data-slide-to="7"></li>      			
     		</ol>
 
     		<!-- Wrapper for slides -->
     		<div class="carousel-inner" role="listbox">
     			<div class="item active">
-        			<img src="ipc.jpg" alt="iphone" width="460" height="345">
+        			<img src="iphone2.jpg" alt="iphone" width="460" height="345">
+      			</div>
+      			<div class="item">
+        			<img src="sam.jpg" alt="iphone" width="460" height="345">
       			</div>
       			<div class="item">
         			<img src="macbook.jpg" alt="mac" width="460" height="345">
       			</div>
           		<div class="item">
-        			<img src="tv-brands1.jpg" alt="tv" width="460" height="345">
+        			<img src="oled.jpg" alt="tv" width="460" height="345">
       			</div>
 		        <div class="item">
-        			<img src="Camera Brand 1.jpg" alt="Camera" width="460" height="300">
+        			<img src="samtv.jpg" alt="tv" width="460" height="300">
+      			</div>
+      			<div class="item">
+        			<img src="Nikon.jpg" alt="Camera" width="460" height="300">
+      			</div>
+      			<div class="item">
+        			<img src="praktica.jpg" alt="Camera" width="460" height="300">
+      			</div>
+      			<div class="item">
+        			<img src="can2.jpg" alt="Camera" width="460" height="300">
       			</div>
     		</div>
 
