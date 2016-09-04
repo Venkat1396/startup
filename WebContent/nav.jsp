@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  	<link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.css">
   	<script src="bootstrap-3.3.7/jq/jquery.min.js"></script>
   	<script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -13,10 +13,10 @@
 	<nav class="navbar navbar-inverse"><br>
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="navbar.jsp">Electronic Hub</a>
+				<a class="navbar-brand" href="Home.jsp">Electronic Hub</a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="navbar.jsp"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+				<li class="active"><a href="Home.jsp"><span class="glyphicon glyphicon-home"></span>Home</a></li>
 				<li><a href="#"><span class="glyphicon glyphicon-phone-alt"></span>Contact Us</a></li>
 				<li><a href="#"><span class="glyphicon glyphicon-inbox"></span>About Us</a></li>
 				<li class="dropdown">

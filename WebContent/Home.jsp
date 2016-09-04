@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.css">
   	<script src="bootstrap-3.3.7/jq/jquery.min.js"></script>
   	<script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -59,16 +59,16 @@
     		<!-- Wrapper for slides -->
     		<div class="carousel-inner" role="listbox">
     			<div class="item active">
-        			<img src="laptop-brands.jpg" alt="lap" width="460" height="345">
+        			<img src="ipc.jpg" alt="iphone" width="460" height="345">
       			</div>
       			<div class="item">
-        			<img src="Mobile-phone-brands-new-with-logos-b-682.jpg" alt="mobiles" width="460" height="345">
+        			<img src="macbook.jpg" alt="mac" width="460" height="345">
       			</div>
           		<div class="item">
         			<img src="tv-brands1.jpg" alt="tv" width="460" height="345">
       			</div>
 		        <div class="item">
-        			<img src="Camera Brand 1.jpg" alt="Camera" width=100% height="300">
+        			<img src="Camera Brand 1.jpg" alt="Camera" width="460" height="300">
       			</div>
     		</div>
 
