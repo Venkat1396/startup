@@ -96,7 +96,7 @@
 			    				<div class="col-xs-6 col-sm-6 col-md-6">
 			    					<div class="form-group">
 			    						<div class="input-group" style="position: relative; left: 20px;">
-			    							Home-><a href="Home.jsp"><button type="button" class="btn btn-default" ><span class="glyphicon glyphicon-home"></span></button></a>
+			    							Home&#45;&gt;<a href="Home.jsp"><button type="button" class="btn btn-default" ><span class="glyphicon glyphicon-home"></span></button></a>
 			    						</div>
 			    					</div>
 			    					

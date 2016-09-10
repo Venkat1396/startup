@@ -13,10 +13,10 @@
 <body>
 	<%@ include file="nav.jsp" %>
 	<div class="container">
-		<div class="text-center">
-			<center><h1>Welcome ${requestScope.Name}</h1></center>
+		<div class="jumbotron">
+			<h1>Welcome, ${sessionScope.Name}!</h1>
 		</div>
 	</div>
-
+	<%@ include file="footer.jsp" %>
 </body>
 </html>

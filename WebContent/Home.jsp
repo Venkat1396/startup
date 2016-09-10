@@ -98,6 +98,18 @@
     		</a>
   		</div>
 	</div>
-
+	<footer class="footer">
+      <div class="container">
+        <hr>
+	    <div class="col-lg-12">
+	      <div class="col-md-8">
+	        <a href="#"> *Terms &amp; Conditions apply.</a>  
+	      </div>
+	      <div class="col-md-4">
+	        <p class="pull-right">Copyright &copy;  Electronic Hub</p>
+	      </div>
+	    </div>
+      </div>
+    </footer>
 </body>
 </html>
