@@ -4,6 +4,7 @@
 <html>
 <head>
   	<link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.css">
+  	<!-- link type="text/css" rel="stylesheet" href="bootstrap-3.3.7/css/style.css" /-->
   	<script src="bootstrap-3.3.7/jq/jquery.min.js"></script>
   	<script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">

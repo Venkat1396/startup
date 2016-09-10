@@ -5,6 +5,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.css">
+  	<!-- link type="text/css" rel="stylesheet" href="bootstrap-3.3.7/css/style.css" /-->
   	<script src="bootstrap-3.3.7/jq/jquery.min.js"></script>
   	<script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -44,9 +45,7 @@
 			</ul>
 		</div>
 	</nav>
-	<br>
 	<div class="container-fluid">
-  	<br>
   		<div id="myCarousel" class="carousel slide" style="width:100%; height: 300px;  data-ride="carousel">
     		<!-- Indicators -->
     		<ol class="carousel-indicators">
