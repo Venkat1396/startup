@@ -20,7 +20,7 @@
 	        <a href="#"> *Terms &amp; Conditions apply.</a>  
 	      </div>
 	      <div class="col-md-4">
-	        <p class="pull-right">Copyright &copy;  Electronic Hub</p>
+	        <p class="pull-right">Copyright &copy;  Electronic Hub&#8482;</p>
 	      </div>
 	    </div>
       </div>
