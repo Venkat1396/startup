@@ -23,8 +23,7 @@
 </head>
 <body>
 <div class="container col-xs-7" >
-	<img src="easy-ways-to-recycle-electronic-gadgets-and-control-pollution.jpg">
-	</div>
+	<img src="Images/easy-ways-to-recycle-electronic-gadgets-and-control-pollution.jpg">
 	<center><h1><small>Get Gadgets At Your DoorStep!</small></h1></center>
 </div>
 <div class="container col-sm-5">
@@ -51,7 +50,7 @@
     				<div class="form-group">
       					<div class="input-group">
       						<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
-      						<input type="text" class="form-control" id="DOB" placeholder="dd/mm/yy" required="">
+      						<input type="text" class="form-control" id="DOB" placeholder="Date Of Birth" required="">
       					</div>
     				</div>    				
     				<div class="form-group">
@@ -59,6 +58,7 @@
       						<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
       						<input type="email" class="form-control" name="email" required="" placeholder="Enter E-mail">
     					</div>
+    						<span class="help-block">Enter a valid E-mail Address.</span>
     				</div>
     				<div class="row">
     					<div class="col-md-6 col-sm-6 col-xs-6">    

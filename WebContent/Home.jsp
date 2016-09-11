@@ -1,11 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.css">
-  	<!-- link type="text/css" rel="stylesheet" href="bootstrap-3.3.7/css/style.css" /-->
   	<script src="bootstrap-3.3.7/jq/jquery.min.js"></script>
   	<script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -19,6 +18,7 @@
   		}
    	</style>
 </head>
+
 <body>
 	<nav class="navbar navbar-inverse"><br>
 		<div class="container-fluid">
@@ -26,7 +26,7 @@
 				<a class="navbar-brand" href="Home.jsp">Electronic Hub</a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="Home.jsp"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+				<li class="active"><a href="Welcome.jsp"><span class="glyphicon glyphicon-home"></span>Home</a></li>
 				<li><a href="#"><span class="glyphicon glyphicon-phone-alt"></span>Contact Us</a></li>
 				<li><a href="#"><span class="glyphicon glyphicon-inbox"></span>About Us</a></li>
 				<li class="dropdown">
@@ -40,11 +40,19 @@
 				</li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="Register.jsp"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
-				<li><a href="Login.jsp"><span class="glyphicon glyphicon-log-in"></span>Sign In</a></li>
+				<c:choose>
+				    <c:when test="${not empty sessionScope.Name }">
+				        <li><a href="Signout"><span class="glyphicon glyphicon-log-out"></span> Sign Out</a></li>
+				        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Hi! ${sessionScope.Name} </a></li>
+				    </c:when>    
+				    <c:otherwise>
+						<li><a href="Register.jsp"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+						<li><a href="Login.jsp"><span class="glyphicon glyphicon-log-in"></span>Sign In</a></li>
+					</c:otherwise>
+				</c:choose>
 			</ul>
 		</div>
-	</nav>
+	</nav>	
 	<div class="container-fluid">
   		<div id="myCarousel" class="carousel slide" style="width:100%; height: 300px;  data-ride="carousel">
     		<!-- Indicators -->
@@ -62,28 +70,28 @@
     		<!-- Wrapper for slides -->
     		<div class="carousel-inner" role="listbox">
     			<div class="item active">
-        			<img src="iphone2.jpg" alt="iphone" width="460" height="345">
+        			<img src="Images/iphone2.jpg" alt="iphone" width="460" height="345">
       			</div>
       			<div class="item">
-        			<img src="sam.jpg" alt="iphone" width="460" height="345">
+        			<img src="Images/sam.jpg" alt="iphone" width="460" height="345">
       			</div>
       			<div class="item">
-        			<img src="macbook.jpg" alt="mac" width="460" height="345">
+        			<img src="Images/macbook.jpg" alt="mac" width="460" height="345">
       			</div>
           		<div class="item">
-        			<img src="oled.jpg" alt="tv" width="460" height="345">
+        			<img src="Images/oled.jpg" alt="tv" width="460" height="345">
       			</div>
 		        <div class="item">
-        			<img src="samtv.jpg" alt="tv" width="460" height="300">
+        			<img src="Images/samtv.jpg" alt="tv" width="460" height="300">
       			</div>
       			<div class="item">
-        			<img src="Nikon.jpg" alt="Camera" width="460" height="300">
+        			<img src="Images/Nikon.jpg" alt="Camera" width="460" height="300">
       			</div>
       			<div class="item">
-        			<img src="praktica.jpg" alt="Camera" width="460" height="300">
+        			<img src="Images/praktica.jpg" alt="Camera" width="460" height="300">
       			</div>
       			<div class="item">
-        			<img src="can2.jpg" alt="Camera" width="460" height="300">
+        			<img src="Images/can2.jpg" alt="Camera" width="460" height="300">
       			</div>
     		</div>
 

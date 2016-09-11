@@ -33,7 +33,7 @@
       					<label>User Name*</label>
       					<div class="input-group">
       						<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-      						<input type="text" class="form-control" name="User Name" placeholder="User Name" required="">
+      						<input type="text" class="form-control" name="User Name" placeholder="User Name" required="" autofocus="" />
     					</div>
     				</div> 
    					<div class="form-group">
