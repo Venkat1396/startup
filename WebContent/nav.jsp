@@ -41,8 +41,12 @@
 			<ul class="nav navbar-nav navbar-right">
 				<c:choose>
 				    <c:when test="${not empty sessionScope.Name }">
-				        <li><a href="Signout"><span class="glyphicon glyphicon-log-out"></span> Sign Out</a></li>
-				        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Hi! ${sessionScope.Name} </a></li>
+				      	<li class="dropdown">
+				        	<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> Hi! ${sessionScope.Name}<span class="caret"></span> </a>
+				        		<ul class="dropdown-menu">
+				        			<li><a href="Signout"><span class="glyphicon glyphicon-log-out"></span> Sign Out</a></li>
+				        		</ul>
+				        </li>
 				    </c:when>    
 				    <c:otherwise>
 						<li><a href="Register.jsp"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>

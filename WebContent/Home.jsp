@@ -30,9 +30,9 @@
 				<li><a href="#"><span class="glyphicon glyphicon-phone-alt"></span>Contact Us</a></li>
 				<li><a href="#"><span class="glyphicon glyphicon-inbox"></span>About Us</a></li>
 				<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Category<span class="caret"></span></a>
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">Lap Tops</a></li>
+						<li><a href="#">LapTops</a></li>
 						<li><a href="#">Mobile Phones</a></li>
 						<li><a href="#">Cameras</a></li>
 						<li><a href="#">Television</a></li>
@@ -42,8 +42,12 @@
 			<ul class="nav navbar-nav navbar-right">
 				<c:choose>
 				    <c:when test="${not empty sessionScope.Name }">
-				        <li><a href="Signout"><span class="glyphicon glyphicon-log-out"></span> Sign Out</a></li>
-				        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Hi! ${sessionScope.Name} </a></li>
+				      	<li class="dropdown">
+				        	<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> Hi! ${sessionScope.Name}<span class="caret"></span> </a>
+				        		<ul class="dropdown-menu">
+				        			<li><a href="Signout"><span class="glyphicon glyphicon-log-out"></span> Sign Out</a></li>
+				        		</ul>
+				        </li>
 				    </c:when>    
 				    <c:otherwise>
 						<li><a href="Register.jsp"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>

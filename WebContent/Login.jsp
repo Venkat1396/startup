@@ -12,6 +12,10 @@
 </head>
 <body>
 <form action="Controller" method="post">
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item"><a href="Home.jsp">Home</a></li>
+		<li class="breadcrumb-item active">Login</li>
+	</ol>
 	<div class="container col-sm-4 col-sm-offset-4">
 		<div class="row">
 			<div>

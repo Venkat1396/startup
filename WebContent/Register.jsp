@@ -12,7 +12,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<title>Sign Up</title>
 	<script type="text/javascript">
-		$(document).ready(function () {
+		$(document).ready(function () {	
         
         	$('#DOB').datepicker({
             format: "dd/mm/yyyy"
@@ -22,6 +22,10 @@
   </script>
 </head>
 <body>
+<ol class="breadcrumb">
+		<li class="breadcrumb-item"><a href="Home.jsp">Home</a></li>
+		<li class="breadcrumb-item active">Sign Up</li>
+	</ol>
 <div class="container col-xs-7" >
 	<img src="Images/easy-ways-to-recycle-electronic-gadgets-and-control-pollution.jpg">
 	<center><h1><small>Get Gadgets At Your DoorStep!</small></h1></center>
@@ -65,7 +69,7 @@
     						<div class="form-group">
       							<div class="input-group">
       								<span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-      								<input type="password" class="form-control" name="Password" required="" placeholder="Enter Password">
+      								<input type="password" class="form-control" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required="" placeholder="Enter Password">
       							</div>
     						</div>
     					</div>
@@ -93,17 +97,17 @@
     					<h4><small>*Required Fields</small></h4>
     					<h3><input type="submit" class="btn btn-success btn-md" value="Sign Up!"></h3>
     					<div class="row">
-			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    				<!-- div class="col-xs-6 col-sm-6 col-md-6">
 			    					<div class="form-group">
 			    						<div class="input-group" style="position: relative; left: 20px;">
 			    							Home&#45;&gt;<a href="Home.jsp"><button type="button" class="btn btn-default" ><span class="glyphicon glyphicon-home"></span></button></a>
 			    						</div>
 			    					</div>
 			    					
-			    				</div>
-			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    				</div-->
+			    				<div>
 			    					<div class="form-group" style="position: relative; bottom: 80px">
-			    						Already have an account? <span class="pull-right"><a href="Login.jsp"><button type="button" class="btn btn-info" >Log In!</button></a></span>
+			    						<span class="pull-right">Already have an account?<br> <a href="Login.jsp"><button type="button" class="btn btn-info" >Log In!</button></a></span>
 			    					</div>
 			    				</div>
 			    				
